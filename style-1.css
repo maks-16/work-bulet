@@ -212,6 +212,12 @@ a {
   text-decoration: none;
   display: block;
 }
+@media screen and (max-width: 600px) {
+  .dropdown-content a{
+  padding: 0 7.5px;
+  font-size : 10px;
+  }
+}
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
