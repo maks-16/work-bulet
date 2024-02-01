@@ -6,14 +6,6 @@ body {
   font-family: "Raleway", sans-serif; /*шрифт*/
 }
 
-/*#bg {
-    position:fixed;
-    z-index: -1;
-    top:0;
-    left:0; 
-    min-width:100%;
-    min-height:100%;
-}*/
 .header-bd {
   overflow: hidden;
   margin-top: 0%;
@@ -321,20 +313,30 @@ a {
   }
 }
 
-.ttt {
-  /* position: absolute;
-   z-index: 0;*/
-  text-align: center;
-  word-wrap: break-word;
+#openDialog{
+  border-style: none;
+  margin: 0 auto;
 }
 
-.prise-text {
-  font-style: italic;
-  font-family: "Raleway", sans-serif; /*шрифт*/
+.ttt{
+  width: 100vw;
+  margin-top: 50px;
 }
-
-.line {
-  height: 5px;
-  width: 100%;
-  background-color: black;
-}/*# sourceMappingURL=style-1.css.map */
+@media screen and (max-width: 600px) {
+  .ttt{
+    display: flex;
+    justify-content: center;
+    background: rgb(53, 51, 51, 0.3);
+  }
+}
+  #dialog1 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: solid;
+    padding: 1em;
+    background: white;
+    color: black;
+    width: 500px;
+ }
