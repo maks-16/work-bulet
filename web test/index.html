@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style-2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <div class="header-bd">
+    <div class="nav">
+        <div class="nav-list">
+            <a class="logo-link" href="file:///C:/Users/%D0%9C%D0%B0%D0%BA%D1%81/Desktop/web/New-site.html">
+                <img class="logo" src="\img\logo.jpg" alt="logo" >
+                </a>
+                <ul class="in-header">
+                    <li>
+                        <h3 class="text-header">Будівельні роботи Жовква</h3>
+                    </li>
+                </ul>
+                <div class="bt-header">
+                    <button onclick="myFunction()" class="kontakt"><img class="logo-img" src="\img\558022.svg">Контакти</button>
+                    <div id="myDropdown" class="dropdown-content">
+                      <a href="#">096866*17*</a>
+                      <a href="#">093492*58*</a>
+                    </div>
+                    </div>
+        </div>
+    </div>
+    <div class="ttt">
+        <!-- <h1 class="prise-text">Прайс робіт</h1> -->
+        <button id="openDialog" class="open-dialog"> <img src="\img\15.png" alt="Малярні роботи" width="110px" height="88px"> <br> Малярні роботи </button>
+        <dialog id="dialog-1">
+         <p><button id="closeDialog">Закрити вікно</button></p>
+         <br>
+         <table class="table-1">
+           <caption>Малярні роботи</caption>
+           <tr class="hed-table-1">
+             <th>№</th>
+             <th scope="col">Вид роботи</th>
+             <th scope="col">Діапазон цін</th>
+             <th scope="col">Середня ціна м²</th>
+           </tr>
+           <tr>
+             <td>1</td>
+             <td>Фарбування стін водоемульсійною фарбою </td>
+             <td>60-150 грн</td>
+             <td>93 грн</td>
+           </tr>
+           <tr>
+             <td>2</td>
+             <td>Фарбування стелі водоемульсійною фарбою </td>
+             <td>60-170 грн</td>
+             <td>105 грн</td>
+           </tr>
+           <tr>
+             <td>3 </td>
+             <td>Грунтовка стін, стелі (1 шар) ціни</td>
+             <td>12-35 грн</td>
+             <td>21 грн</td>
+           </tr>
+         </table>
+        </dialog>
+        <script src="./script-2.js"> </script>
+     </div>  
+   </div>
+</body>
+</html>
